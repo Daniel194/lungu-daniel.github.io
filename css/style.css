@@ -5,12 +5,7 @@
   font-weight: normal;
   font-style: normal; }
 
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
@@ -1427,3 +1422,13 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
