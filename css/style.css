@@ -409,7 +409,7 @@ figure figcaption {
 }
 
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
-  font-size: 18px;
+  font-size: 25px;
   line-height: 1.5;
   margin-bottom: 30px;
   font-weight: 300;
@@ -2006,4 +2006,8 @@ canvas {
 
 .count-particles {
   border-radius: 0 0 3px 3px;
+}
+
+#information {
+  height: 20px;
 }
