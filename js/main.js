@@ -40,7 +40,7 @@
     $('.js-counter').countTo({
       formatter: function (value, options) {
         return value.toFixed(options.decimals);
-      },
+      }
     });
   };
 
@@ -249,17 +249,12 @@
         $('.sticky-parent').removeClass('stick-detach');
         $("#sticky_item").trigger("sticky_kit:detach");
         $("#sticky_item").trigger("sticky_kit:unstick");
-
-        $("#sticky_item").stick_in_parent();
       }
 
 
     });
 
     $('.sticky-parent').css('height', h);
-
-    //$("#sticky_item").stick_in_parent();
-
   };
 
   var owlCrouselFeatureSlide = function () {
@@ -283,38 +278,23 @@
   var typedEffect = function () {
     var options = {
       strings: ["Software Developer", "Data Science", "Web Developer", "Code in Java and Python", "Spring Hibernate Angular"],
-      // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
       stringsElement: null,
-      // typing speed
       typeSpeed: 50,
-      // time before typing starts
       startDelay: 1500,
-      // backspacing speed
       backSpeed: 30,
-      // time before backspacing
       backDelay: 500,
-      // loop
       loop: true,
-      // false = infinite
       loopCount: 5,
-      // show cursor
       showCursor: false,
-      // character for cursor
       cursorChar: "|",
-      // attribute to type (null == text)
       attr: null,
-      // either html or text
       contentType: 'html',
-      // call when done callback function
       callback: function () {
       },
-      // starting callback function before each string
       preStringTyped: function () {
       },
-      //callback for every typed string
       onStringTyped: function () {
       },
-      // callback for reset
       resetCallback: function () {
       }
     };
@@ -332,9 +312,7 @@
     burgerMenu();
 
     clickMenu();
-    // navActive();
     navigationSection();
-    // windowScroll();
 
 
     mobileMenuOutsideClick();

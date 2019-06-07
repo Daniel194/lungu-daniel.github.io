@@ -95,7 +95,7 @@ figure figcaption {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #f2f3f7;
+  background: #eeeeee;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -302,7 +302,7 @@ figure figcaption {
 
 #colorlib-hero {
   min-height: 500px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+  background: #fff;
   width: 100%;
   float: left;
   margin-bottom: 10em;
