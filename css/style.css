@@ -2011,3 +2011,17 @@ canvas {
 #information {
   height: 20px;
 }
+
+.social {
+  height: 30px;
+  margin: 10px;
+}
+
+#colorlib-aside #colorlib-main-menu ul li .social-link:hover:after {
+  visibility: hidden;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+  -o-transform: none !important;
+  transform: none !important;
+}
