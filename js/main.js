@@ -143,7 +143,7 @@
 
   var clickMenu = function () {
 
-    $('#navbar a:not([class="external"])').click(function (event) {
+    $('#navbar .navigate:not([class="external"])').click(function (event) {
       var section = $(this).data('nav-section'),
         navbar = $('#navbar');
 
