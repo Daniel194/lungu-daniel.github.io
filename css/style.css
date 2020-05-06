@@ -274,6 +274,11 @@ figure figcaption {
   padding: 4px;
 }
 
+#website-aside .website-footer p {
+  position: fixed;
+  bottom: 0;
+}
+
 #website-aside .website-footer ul li a:hover, #website-aside .website-footer ul li a:active, #website-aside .website-footer ul li a:focus {
   text-decoration: none;
   outline: none;
@@ -281,7 +286,6 @@ figure figcaption {
 }
 
 .container-wrap {
-  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -2024,4 +2028,8 @@ canvas {
   -ms-transform: none !important;
   -o-transform: none !important;
   transform: none !important;
+}
+
+.email {
+  text-transform: lowercase;
 }
