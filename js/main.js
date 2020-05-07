@@ -277,14 +277,14 @@
 
   var typedEffect = function () {
     var options = {
-      strings: ["Software Developer", "Data Science", "Web Developer", "Code in Java and Python", "Spring Hibernate Angular"],
+      strings: ["A full stack developer with 5+ years of experience in taking shapeless cloud of ideas and reduce it to an elegant software product."],
       stringsElement: null,
       typeSpeed: 50,
       startDelay: 1500,
       backSpeed: 30,
       backDelay: 500,
-      loop: true,
-      loopCount: 5,
+      loop: false,
+      loopCount: 1,
       showCursor: false,
       cursorChar: "|",
       attr: null,

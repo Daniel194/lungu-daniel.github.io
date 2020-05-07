@@ -91,11 +91,11 @@ figure figcaption {
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
-  width: 300px;
+  width: 100px;
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #eeeeee;
+  background: #000000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -111,17 +111,6 @@ figure figcaption {
     transform: translateX(-300px);
     padding-top: 4em;
   }
-}
-
-#website-aside .author-img {
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
 }
 
 #website-aside .position {
@@ -179,7 +168,7 @@ figure figcaption {
 }
 
 #website-aside #website-main-menu ul li a {
-  color: rgba(0, 0, 0, 0.7);
+  color: white;
   text-decoration: none;
   position: relative;
   padding: 10px 0;
@@ -212,7 +201,7 @@ figure figcaption {
 
 #website-aside #website-main-menu ul li a:hover {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 #website-aside #website-main-menu ul li a:hover:after {
@@ -290,7 +279,7 @@ figure figcaption {
 }
 
 #website-main {
-  width: calc(100% - 300px);
+  width: calc(100% - 100px);
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -305,7 +294,7 @@ figure figcaption {
 }
 
 #website-hero {
-  min-height: 500px;
+  min-height: 100px;
   background: #fff;
   width: 100%;
   float: left;
@@ -328,7 +317,7 @@ figure figcaption {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  min-height: 400px;
+  min-height: 200px;
   position: relative;
 }
 
@@ -374,14 +363,13 @@ figure figcaption {
 #website-hero .flexslider .slider-text {
   display: table;
   opacity: 0;
-  min-height: 500px;
+  min-height: 300px;
   z-index: 9;
 }
 
 #website-hero .flexslider .slider-text > .slider-text-inner {
-  display: table-cell;
   vertical-align: middle;
-  min-height: 700px;
+  min-height: 300px;
   padding: 2.5em;
   position: relative;
 }
@@ -390,13 +378,6 @@ figure figcaption {
   #website-hero .flexslider .slider-text > .slider-text-inner {
     text-align: center;
   }
-}
-
-#website-hero .flexslider .slider-text > .slider-text-inner h1, #website-hero .flexslider .slider-text > .slider-text-inner h2 {
-  margin: 0;
-  padding: 0;
-  color: black;
-  font-family: "Playfair Display", Georgia, serif;
 }
 
 #website-hero .flexslider .slider-text > .slider-text-inner h1 {
@@ -546,6 +527,12 @@ body.offcanvas #website-main, body.offcanvas .website-nav-toggle {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
+  width: 150px;
+  height: 150px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
 }
 
 .website-heading {
@@ -2032,4 +2019,31 @@ canvas {
 
 .email {
   text-transform: lowercase;
+}
+
+#particles-js {
+  height: 300px;
+}
+
+.contact-links {
+  position: fixed;
+  z-index: 1000;
+  right: 10px;
+  top: 10px;
+  width: 50px;
+}
+
+.greetings {
+  display: flex;
+}
+
+.greetings > h1 {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.desc h2 {
+  padding-top: 10px;
+  padding-left: 100px;
+  margin-right: 200px;
 }

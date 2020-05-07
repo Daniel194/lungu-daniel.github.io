@@ -54,11 +54,6 @@
     <a href="#" class="js-website-nav-toggle website-nav-toggle" data-toggle="collapse" data-target="#navbar"
        aria-expanded="false" aria-controls="navbar"><i></i></a>
     <aside id="website-aside" role="complementary" class="border js-fullheight">
-      <div class="text-center">
-        <div class="author-img" style="background-image: url(images/profile.jpeg);"></div>
-        <h1 id="website-logo"><a href="index.html">Daniel Lungu</a></h1>
-        <span class="position"><a href="#">Software Developer & Data Science</a>  <br> in Bucharest</span>
-      </div>
       <nav id="website-main-menu" role="navigation" class="navbar">
         <div id="navbar" class="collapse">
           <ul>
@@ -69,49 +64,54 @@
             <li><a class="navigate" href="#" data-nav-section="experience">Experience</a></li>
             <li><a class="navigate" href="#" data-nav-section="work">Work</a></li>
             <li><a class="navigate" href="#" data-nav-section="blog">Blog</a></li>
-            <li>
-              <a class="social-link" target="_blank" href="https://twitter.com/LunguDaniel94"><img class="social" src="images/twitter.svg" alt="Twitter"/></a>
-              <a class="social-link" target="_blank" href="https://www.linkedin.com/in/daniel-lungu-b1a2036a/"><img class="social" src="images/linkedin.svg" alt="LinkedIn"/></a>
-              <a class="social-link" target="_blank" href="https://stackoverflow.com/users/3450684/lungu-daniel?tab=profile"><img class="social" src="images/overflowing.svg" alt="StackOverflow"/></a>
-              <a class="social-link" target="_blank" href="https://github.com/Daniel194"><img class="social" src="images/github-logo.svg" alt="GitHub"/></a>
-              <a class="social-link" target="_blank" href="https://medium.com/@daniellungu"><img class="social" src="images/medium.svg" alt="Medium"/></a>
-            </li>
-            <li>
-              <span class="email"><img class="social" src="images/email.svg" alt="Email"/>daniel@lungu.tech</span>
-            </li>
           </ul>
         </div>
       </nav>
-
-      <div class="website-footer">
-        <p>
-          <small>&copy;
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-            All rights reserved
-          </small>
-        </p>
-      </div>
-
     </aside>
 
     <div id="website-main">
-      <section id="website-hero" class="js-fullheight" data-section="home">
-        <div id="particles-js" class="flexslider js-fullheight">
+      <section>
+        <div class="contact-links">
+          <a class="social-link" target="_blank" href="https://twitter.com/LunguDaniel94">
+            <img class="social" src="images/twitter.svg" alt="Twitter"/>
+          </a>
+          <a class="social-link" target="_blank" href="https://www.linkedin.com/in/daniel-lungu-b1a2036a/">
+            <img class="social" src="images/linkedin.svg" alt="LinkedIn"/>
+          </a>
+          <a class="social-link" target="_blank"
+             href="https://stackoverflow.com/users/3450684/lungu-daniel?tab=profile">
+            <img class="social" src="images/overflowing.svg" alt="StackOverflow"/>
+          </a>
+          <a class="social-link" target="_blank" href="https://github.com/Daniel194">
+            <img class="social" src="images/github-logo.svg" alt="GitHub"/>
+          </a>
+          <a class="social-link" target="_blank" href="https://medium.com/@daniellungu">
+            <img class="social" src="images/medium.svg" alt="Medium"/>
+          </a>
+          <span class="email">
+            <img class="social" src="images/email.svg" alt="Email"/>
+          </span>
+        </div>
+      </section>
+
+      <section id="website-hero" data-section="home">
+        <div id="particles-js" class="flexslider">
           <ul class="slides">
             <li>
               <div class="overlay"></div>
               <div class="container-fluid">
-                <div class="row">
-                  <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                    <div class="slider-text-inner js-fullheight">
+                  <div class="slider-text">
+                    <div class="slider-text-inner">
                       <div class="desc">
-                        <h1>Hi! I'm Daniel</h1>
+                        <div class="greetings">
+                          <div class="author-img" style="background-image: url(images/profile.jpeg);"></div>
+                          <h1>Hi! I'm Daniel</h1>
+                        </div>
                         <h2 id="information"></h2>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
             </li>
           </ul>
         </div>
@@ -126,7 +126,8 @@
                   <div class="about-desc">
                     <span class="heading-meta">About Me</span>
                     <h2 class="website-heading">Who Am I?</h2>
-                    <p><strong>Hi I'm Daniel Lungu</strong>, a passionate software developer in Java (Spring and Hibernate), Python and Angular.</p>
+                    <p><strong>Hi I'm Daniel Lungu</strong>, a passionate software developer in Java (Spring and
+                      Hibernate), Python and Angular.</p>
                   </div>
                 </div>
               </div>
@@ -447,7 +448,8 @@
               <div class="project" style="background-image: url(images/img-4.png);">
                 <div class="desc">
                   <div class="con">
-                    <h3><a href="https://github.com/Daniel194/Money-Management" target="_blank">Money Management</a></h3>
+                    <h3><a href="https://github.com/Daniel194/Money-Management" target="_blank">Money Management</a>
+                    </h3>
                     <span>Website</span>
                   </div>
                 </div>
@@ -457,7 +459,8 @@
               <div class="project" style="background-image: url(images/img-3.jpg);">
                 <div class="desc">
                   <div class="con">
-                    <h3><a href="https://github.com/Daniel194/Transforming-How-We-Diagnose-Heart-Disease" target="_blank">
+                    <h3><a href="https://github.com/Daniel194/Transforming-How-We-Diagnose-Heart-Disease"
+                           target="_blank">
                       Transforming How We Diagnose Heart Disease</a></h3>
                     <span>Artificial Intelligence</span>
                   </div>
@@ -468,13 +471,14 @@
               <div class="project" style="background-image: url(images/img-1.jpg);">
                 <div class="desc">
                   <div class="con">
-                    <h3><a href="https://github.com/Daniel194/Clinical-Management" target="_blank">Clinical Management</a></h3>
+                    <h3><a href="https://github.com/Daniel194/Clinical-Management" target="_blank">Clinical
+                      Management</a></h3>
                     <span>Website</span>
-<!--                    <p class="icon">-->
-<!--                      <span><a href="#"><i class="icon-share3"></i></a></span>-->
-<!--                      <span><a href="#"><i class="icon-eye"></i> 100</a></span>-->
-<!--                      <span><a href="#"><i class="icon-heart"></i> 49</a></span>-->
-<!--                    </p>-->
+                    <!--                    <p class="icon">-->
+                    <!--                      <span><a href="#"><i class="icon-share3"></i></a></span>-->
+                    <!--                      <span><a href="#"><i class="icon-eye"></i> 100</a></span>-->
+                    <!--                      <span><a href="#"><i class="icon-heart"></i> 49</a></span>-->
+                    <!--                    </p>-->
                   </div>
                 </div>
               </div>
@@ -509,7 +513,8 @@
           <div class="row">
             <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
               <div class="blog-entry">
-                <a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap"></a>
+                <a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive"
+                                                          alt="HTML5 Bootstrap"></a>
                 <div class="desc">
                   <span><small>SOON</small> | <small> Artificial Intelligence </small></span>
                   <h3><a href="blog.html">Artificial Intelligence</a></h3>
