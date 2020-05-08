@@ -279,7 +279,7 @@
     var options = {
       strings: ["A full stack developer with 5+ years of experience in taking shapeless cloud of ideas and reduce it to an elegant software product."],
       stringsElement: null,
-      typeSpeed: 50,
+      typeSpeed: 40,
       startDelay: 1500,
       backSpeed: 30,
       backDelay: 500,
