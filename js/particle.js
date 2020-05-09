@@ -1,5 +1,5 @@
 $(window).on('load', function () {
-  particlesJS("particles-js", {
+  const configuration = {
     "particles": {
       "number": {"value": 100, "density": {"enable": true, "value_area": 800}},
       "color": {"value": "#eeeeee"},
@@ -43,5 +43,8 @@ $(window).on('load', function () {
       }
     },
     "retina_detect": true
-  });
+  }
+
+  particlesJS("particles-js-1", configuration);
+  particlesJS("particles-js-2", configuration);
 });
