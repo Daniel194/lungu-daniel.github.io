@@ -99,6 +99,7 @@ figure figcaption {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  height: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -464,7 +465,7 @@ body.offcanvas #website-aside {
   -o-transform: translateX(0);
   transform: translateX(0);
   width: 300px;
-  background: #f2f3f7;
+  height: 100%;
   z-index: 999;
   position: fixed;
 }
@@ -509,20 +510,6 @@ body.offcanvas #website-main, body.offcanvas .website-nav-toggle {
   clear: both;
   width: 100%;
   display: block;
-}
-
-@media screen and (max-width: 768px) {
-  .website-experience,
-  .website-skills,
-  .website-education,
-  .website-blog,
-  .website-work,
-  .website-about,
-  .website-services,
-  .website-contact {
-    padding-top: 5em;
-    padding-bottom: 8em;
-  }
 }
 
 .author-img {
@@ -1368,7 +1355,7 @@ body.offcanvas #website-main, body.offcanvas .website-nav-toggle {
   color: #000;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .project .desc {
     opacity: 1;
     background: rgba(0, 0, 0, 0.4);
@@ -2033,11 +2020,40 @@ canvas {
   padding-top: 50px;
 }
 
-.desc h2 {
-  padding-top: 10px;
-  padding-left: 100px;
-  margin-right: 200px;
+@media screen and (min-width: 768px) {
+  .desc h2 {
+    padding-top: 10px;
+    padding-left: 100px;
+    margin-right: 200px;
+  }
 }
+
+@media screen and (max-width: 768px) {
+  #website-hero .flexslider .slider-text > .slider-text-inner h2 {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .greetings > h1 {
+    padding-left: 0;
+  }
+
+  .website-narrow-content-right {
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  #website-hero .flexslider .slider-text > .slider-text-inner h2 {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .website-narrow-content-right {
+    padding: 0 2.5em;
+  }
+}
+
 
 .content {
   margin-right: 50px;
