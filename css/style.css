@@ -478,12 +478,16 @@ body.offcanvas #website-main, body.offcanvas .website-nav-toggle {
   transform: translateX(300px);
 }
 
-.website-narrow-content {
+.website-narrow-content-left {
   padding: 0 2.5em;
 }
 
+.website-narrow-content-right {
+  padding-right: 2.5em;
+}
+
 @media screen and (max-width: 768px) {
-  .website-narrow-content {
+  .website-narrow-content-left {
     padding: 0;
   }
 }
@@ -1272,7 +1276,7 @@ body.offcanvas #website-main, body.offcanvas .website-nav-toggle {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 300px;
+  height: 350px;
   width: 100%;
   display: block;
   margin-bottom: 30px;
@@ -1292,7 +1296,7 @@ body.offcanvas #website-main, body.offcanvas .website-nav-toggle {
 }
 
 .project .desc .con {
-  padding: 20px;
+  padding: 10px;
   display: block;
   position: relative;
   height: 300px;
